@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">Cricket Score APP</string>
+    <string name="delete_match">Delete Match</string>
+    <string name="undo_last_action">Undo Last Action</string>
+    <string name="reset_score">Reset Score</string>
+    <string name="upload_score">Upload Score</string>
+    <string name="nb">NB</string>
+    <string name="dot">•</string>
+    <string name="w">W</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="_1wd">1WD</string>
+    <string name="score_history">Score History</string>
+    <string name="_0">0</string>
+    <string name="score_detail">Score detail...</string>
+    <string name="create_match">create match</string>
+    <string name="lb">LB</string>
+    <string name="toss_result">Toss Result</string>
+    <string name="flip_coin">Flip Coin</string>
+    <string name="user_name">User Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="target">Target</string>
+    <string name="teama">teamA</string>
+    <string name="score_details">Score Details</string>
+    <string name="teamb">teamB</string>
+    <string name="total_overs_0">Total Overs: 0</string>
+    <string name="total_score_0">Total Score: 0</string>
+    <string name="bat_ball">🏏</string>
+    <string name="history_is_empty_play_a_match_first">History is empty play a match first</string>
+    <string name="app_logo">App Logo</string>
+    <string name="welcome_to_cricket_score_app">Welcome to Cricket Score App</string>
+    <string name="cricket_rules">Cricket Rules</string>
+    <string name="home">Home</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="second_inning">Second Inning</string>
+    <string name="do_you_want_to_start_the_second_inning">Do you want to start the second inning?</string>
+    <string name="redirecting_in_5_sec">Redirecting in 5 sec...</string>
+    <string name="start_inning">Start Inning</string>
+    <string name="congratulations_you_win">Congratulations! You Win 🎉</string>
+    <string name="closing_in_5s">Closing in 5s...</string>
 </resources>

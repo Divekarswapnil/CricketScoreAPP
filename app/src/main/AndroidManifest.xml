@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,14 +16,20 @@
         android:theme="@style/Theme.CricketScoreAPP"
         tools:targetApi="31">
         <activity
-            android:name=".ui.screens.ScoringActivity"
+            android:name=".ui.screens.AboutUsActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.screens.ScoreHistoryActivity"
+            android:name=".ui.screens.LoginRegisterActivity"
             android:exported="false" />
+        <activity
+            android:name=".ui.screens.OfflineActivity"
+            android:exported="true" />
         <activity
             android:name=".ui.screens.HomepageActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.TransparentDrawer"
+            tools:ignore="ScreenOrientation" />
         <activity
             android:name=".ui.screens.SplashActivity"
             android:exported="true"

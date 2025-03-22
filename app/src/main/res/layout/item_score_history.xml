@@ -4,14 +4,15 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:padding="10dp"
-    android:background="@android:color/white">
+    android:background="@android:color/transparent">
 
     <TextView
         android:id="@+id/tv_history_item"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Score: 0/0"
         android:textSize="18sp"
+        android:gravity="center"
         android:textStyle="bold"
         android:textColor="@android:color/black"/>
 </LinearLayout>
