@@ -3,18 +3,11 @@ Cricket Score App is a simple yet powerful scorekeeping application designed for
 
 ## Screenshots
 
-<img src="images/Screenshot_1.png" alt="Screenshot 1" width="200">
-<img src="images/Screenshot_2.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_3.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_4.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_5.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_6.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_7.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_8.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_9.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_10.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_11.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_12.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_13.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_14.png" alt="Screenshot 1" width="500">
-<img src="images/Screenshot_15.png" alt="Screenshot 1" width="500">
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+|-------------|-------------|-------------|
+| <img src="images/Screenshot_1.png" width="150"> | <img src="images/Screenshot_2.png" width="150"> | <img src="images/Screenshot_3.png" width="150"> |
+| <img src="images/Screenshot_4.png" width="150"> | <img src="images/Screenshot_5.png" width="150"> | <img src="images/Screenshot_6.png" width="150"> |
+| <img src="images/Screenshot_7.png" width="150"> | <img src="images/Screenshot_8.png" width="150"> | <img src="images/Screenshot_9.png" width="150"> |
+| <img src="images/Screenshot_10.png" width="150"> | <img src="images/Screenshot_11.png" width="150"> | <img src="images/Screenshot_12.png" width="150"> |
+| <img src="images/Screenshot_13.png" width="150"> | <img src="images/Screenshot_14.png" width="150"> | <img src="images/Screenshot_15.png" width="150"> |
+
