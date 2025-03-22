@@ -3,7 +3,7 @@ Cricket Score App is a simple yet powerful scorekeeping application designed for
 
 ## Screenshots
 
-<img src="images/Screenshot_1.png" alt="Screenshot 1" width="500">
+<img src="images/Screenshot_1.png" alt="Screenshot 1" width="200">
 <img src="images/Screenshot_2.png" alt="Screenshot 1" width="500">
 <img src="images/Screenshot_3.png" alt="Screenshot 1" width="500">
 <img src="images/Screenshot_4.png" alt="Screenshot 1" width="500">
