@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/white">
+
+    <item>
+        <selector>
+            <!-- Pressed state: Darker background -->
+            <item android:state_pressed="true">
+                <shape android:shape="oval">
+                    <solid android:color="@color/red"/>
+                </shape>
+            </item>
+
+            <!-- Normal state: Default background -->
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/green"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

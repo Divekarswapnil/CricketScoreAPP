@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Grass Field with Gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="90"
+                android:endColor="#66BB6A"
+                android:startColor="#4CAF50"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Pitch in the Center -->
+    <item
+        android:bottom="10dp"
+        android:left="80dp"
+        android:right="80dp"
+        android:top="10dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#D7B57C" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+
+    <!-- Crease Lines (Top) -->
+    <item
+        android:bottom="250dp"
+        android:left="90dp"
+        android:right="90dp">
+        <shape android:shape="line">
+            <stroke
+                android:width="3dp"
+                android:color="@android:color/white" />
+        </shape>
+    </item>
+
+
+    <!-- Crease Lines (Bottom) -->
+    <item
+        android:left="90dp"
+        android:right="90dp"
+        android:top="250dp">
+        <shape android:shape="line">
+            <stroke
+                android:width="3dp"
+                android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <!-- Middle Stump Line -->
+    <item
+        android:left="50dp"
+        android:right="50dp">
+        <shape android:shape="line">
+            <stroke
+                android:width="2dp"
+                android:color="@android:color/white" />
+        </shape>
+    </item>
+
+</layer-list>

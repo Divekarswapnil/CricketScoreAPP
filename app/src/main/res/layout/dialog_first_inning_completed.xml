@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/dialog_background"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Inning Completed!"
+        style="@style/BaseTextStyle"
+        android:gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tv_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/do_you_want_to_start_the_second_inning"
+        style="@style/TitleTextStyle14sp_black"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tv_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/redirecting_in_5_sec"
+        style="@style/ScoreTextStyle18sp"
+        android:gravity="center"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btn_start_inning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_inning"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>

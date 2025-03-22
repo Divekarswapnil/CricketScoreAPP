@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#FFD700"
+                android:endColor="#FF6347"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Glow Effect -->
+    <item>
+        <shape android:shape="oval">
+            <size android:width="200dp" android:height="200dp" />
+            <solid android:color="#FFFF99" />
+            <corners android:radius="100dp"/>
+        </shape>
+        <gravity android:gravity="center"/>
+    </item>
+
+</layer-list>

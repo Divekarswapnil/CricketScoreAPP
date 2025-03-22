@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:background="@drawable/win_background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/win_icon"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congratulations_you_win"
+        style="@style/ScoreTextStyle18sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Countdown Timer -->
+    <TextView
+        android:id="@+id/tv_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/closing_in_5s"
+        style="@style/TitleTextStyle16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dismiss Now"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:padding="10dp"/>
+</LinearLayout>
